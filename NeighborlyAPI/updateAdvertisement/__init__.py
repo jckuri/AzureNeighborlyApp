@@ -3,15 +3,16 @@ import pymongo
 from bson.objectid import ObjectId
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-
+    
     id = req.params.get('id')
     request = req.get_json()
-
+    
     if request:
         try:
-            url = "localhost"  # TODO: Update with appropriate MongoDB connection information
+            # TODO: Update with appropriate MongoDB connection information
+            url = "mongodb://course2cosmosmongodb:8r0sp16yJzd8mCngBQmNUUeibYtg2LvF8lNJXv9A3GoJRzKmieX2rCGVTCnDTR4sxQJNTJoZuLdnB0ULjkhROw==@course2cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@course2cosmosmongodb@"  
             client = pymongo.MongoClient(url)
-            database = client['azure']
+            database = client['course2database']
             collection = database['advertisements']
             
             filter_query = {'_id': ObjectId(id)}
