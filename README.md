@@ -86,7 +86,7 @@ A screenshot of the front-end appropriately pulling up posts when you visit loca
 
 ![screenshots/flask_frontend_local.png](screenshots/flask_frontend_local.png)
 
-The Flask Webapp was deployed in local with the following command:
+The Flask Webapp was deployed to localhost with the following command:
 
 ```
 $ python app.py 
