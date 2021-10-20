@@ -250,6 +250,9 @@ func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAG
 
 
 kubectl config get-contexts
+
+
+kubectl get nodes
 ```
 
 I used these commands to create a Kubernetes service, associate it with the Docker image in the Azure Container Registry, and finally deploy the Kubernetes service.
@@ -265,6 +268,16 @@ And here is the proof that the web services deployed in the Kubernetes cluster a
 ![screenshots/kubernetes_get_advertisements.png](screenshots/kubernetes_get_advertisements.png)
 
 ![screenshots/kubernetes_get_posts.png](screenshots/kubernetes_get_posts.png)
+
+With these commands, you can verify that the Kubernetes node is up and running:
+
+```
+kubectl config get-contexts
+
+kubectl get nodes
+```
+
+![screenshots/kubernetes_nodes.png](screenshots/kubernetes_nodes.png)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
