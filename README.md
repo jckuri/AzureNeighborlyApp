@@ -92,7 +92,9 @@ The student should be able create an Event Hubs namespace and an event hub with 
 
 A screenshot with the namespace URL.
 
+![screenshots/event_hub.png](screenshots/event_hub.png)
 
+course2eventhub.servicebus.windows.net
 
 ### The student should be able to add the connection string of the event hub to the Azure Function.
 
