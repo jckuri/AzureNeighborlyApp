@@ -24,7 +24,11 @@ A screenshot from the terminal giving confirmation that the two pieces of sample
 
 ![screenshots/mongoimport_advertisements.png](screenshots/mongoimport_advertisements.png)
 
+mongoimport succesfully imported the advertisements.
+
 ![screenshots/mongoimport_posts.png](screenshots/mongoimport_posts.png)
+
+mongoimport succesfully imported the posts.
 
 ### The finished server-side application contains working Azure Functions for HTTP Triggers in Python.
 
