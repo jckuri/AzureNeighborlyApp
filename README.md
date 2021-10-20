@@ -100,6 +100,8 @@ course2eventhub.servicebus.windows.net
 
 The student should be able to use the endpoint connection string from the event hub to the eventHubTrigger function in the function.json file.
 
+![screenshots/event_hub_trigger_edit_trigger.png](screenshots/event_hub_trigger_edit_trigger.png)
+
 ![screenshots/event_subscription_to_event_hub.png](screenshots/event_subscription_to_event_hub.png)
 
 ## Deploying Your Application
