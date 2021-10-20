@@ -43,6 +43,8 @@ https://course2neighborlyapi.azurewebsites.net/api/getPost
 https://course2neighborlyapi.azurewebsites.net/api/getPosts
 https://course2neighborlyapi.azurewebsites.net/api/updateAdvertisement
 
+![screenshots/FunctionApp_link.png](screenshots/FunctionApp_link.png)
+
 ### The Azure Functions HTTP Trigger endpoints can connect to MongoDB in Azure CosmosDB service.
 
 To verify that the database is configured, the student should be able to retrieve the connection on each of their API endpoints in the server-API application.
@@ -101,6 +103,8 @@ The student should be able to use the endpoint connection string from the event 
 The student should be able to use the live url from Azure App Service in their browser. The URL should be accessible to all users on the World Wide Web, or a screenshot should be provided, including the URL, of the live site.
 
 The live url from Azure App Service (which should be accessible to all users on the World Wide Web), or a screenshot should be provided, including the URL, of the previously live site.
+
+![screenshots/deploy_flask_fronend_visual_studio.png](screenshots/deploy_flask_fronend_visual_studio.png)
 
 ![screenshots/flask_frontend_live_site.png](screenshots/flask_frontend_live_site.png)
 
