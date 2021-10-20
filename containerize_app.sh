@@ -48,3 +48,6 @@ func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAG
 
 
 kubectl config get-contexts
+
+
+kubectl get nodes
