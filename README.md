@@ -102,7 +102,7 @@ The student should be able to use the live url from Azure App Service in their b
 
 The live url from Azure App Service (which should be accessible to all users on the World Wide Web), or a screenshot should be provided, including the URL, of the previously live site.
 
-
+![screenshots/flask_frontend_live_site.png](screenshots/flask_frontend_live_site.png)
 
 ### The student should be able to containerize their Flask application with Dockerfile.
 
