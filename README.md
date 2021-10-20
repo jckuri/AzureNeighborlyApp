@@ -102,7 +102,9 @@ A screenshot with the namespace URL.
 
 ![screenshots/event_hub.png](screenshots/event_hub.png)
 
-The Event Hub Namespace URL: https://course2eventhub.servicebus.windows.net **(Disabled to save money.)**
+I created the Event Hub Namespace `course2eventhub`.
+
+Here is the Event Hub Namespace URL: https://course2eventhub.servicebus.windows.net **(Disabled to save money.)**
 
 ### The student should be able to add the connection string of the event hub to the Azure Function.
 
