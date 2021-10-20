@@ -14,6 +14,8 @@ A screenshot from the Azure portal showing the database & collections
 
 ![screenshots/mongo_database.png](screenshots/mongo_database.png)
 
+![screenshots/mongo_database_2.png](screenshots/mongo_database_2.png)
+
 A screenshot from the terminal giving confirmation that the two pieces of sample data for advertisements (5 documents) and posts (4 documents) were imported correctly, or include this data in the live website.
 
 
