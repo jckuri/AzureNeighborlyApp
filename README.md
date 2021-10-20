@@ -86,6 +86,27 @@ A screenshot of the front-end appropriately pulling up posts when you visit loca
 
 ![screenshots/flask_frontend_local.png](screenshots/flask_frontend_local.png)
 
+The Flask Webapp was deployed in local with the following command:
+
+```
+$ python app.py 
+app.py:11: DeprecationWarning: 'werkzeug.contrib.atom' is deprecated as of version 0.15 and will be removed in version 1.0.
+  from werkzeug.contrib.atom import AtomFeed
+ ----->>>> Flask Python Application running in development server
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/media/jckuri/1.9TB/UDACITY/Cloud Developer using Microsoft Azure/Project 2/AzureNeighborlyApp/NeighborlyFrontEnd/app.py:11: DeprecationWarning: 'werkzeug.contrib.atom' is deprecated as of version 0.15 and will be removed in version 1.0.
+  from werkzeug.contrib.atom import AtomFeed
+ ----->>>> Flask Python Application running in development server
+ * Debugger is active!
+ * Debugger PIN: 277-117-486
+```
+
 ## Logic Apps & Event Hubs
 
 ### The student demonstrates mastery in using Azure Logic App Designer to create a trigger.
