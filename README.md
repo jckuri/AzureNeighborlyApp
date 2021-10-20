@@ -45,6 +45,8 @@ https://course2neighborlyapi.azurewebsites.net/api/updateAdvertisement
 
 ![screenshots/FunctionApp_link.png](screenshots/FunctionApp_link.png)
 
+https://course2neighborlyapi.azurewebsites.net/
+
 ### The Azure Functions HTTP Trigger endpoints can connect to MongoDB in Azure CosmosDB service.
 
 To verify that the database is configured, the student should be able to retrieve the connection on each of their API endpoints in the server-API application.
@@ -94,7 +96,7 @@ A screenshot with the namespace URL.
 
 ![screenshots/event_hub.png](screenshots/event_hub.png)
 
-Namespace URL: [https://course2eventhub.servicebus.windows.net](https://course2eventhub.servicebus.windows.net) **(Disabled to save money.)**
+Namespace URL: https://course2eventhub.servicebus.windows.net **(Disabled to save money.)**
 
 ### The student should be able to add the connection string of the event hub to the Azure Function.
 
