@@ -51,7 +51,13 @@ To pass this criteria, show a screenshot, including URL, of at least the data re
 
 A screenshot, including URL, of at least the data returned from querying the getAdvertisements endpoint; other endpoints will be checked for reasonableness within the related code files.
 
+![screenshots/getadvertisements.png](screenshots/getadvertisements.png)
 
+https://course2neighborlyapi.azurewebsites.net/api/getAdvertisements
+
+![screenshots/getposts.png](screenshots/getposts.png)
+
+https://course2neighborlyapi.azurewebsites.net/api/getPosts
 
 ### The client-side application in Flask should be able to call the live Functions API endpoints that the students published in previous steps.
 
