@@ -55,6 +55,8 @@ https://course2neighborlyapi.azurewebsites.net/api/updateAdvertisement
 
 ![screenshots/FunctionApp_link.png](screenshots/FunctionApp_link.png)
 
+The Function App `course2neighborlyapi` is up and running in the website:
+
 https://course2neighborlyapi.azurewebsites.net/
 
 ### The Azure Functions HTTP Trigger endpoints can connect to MongoDB in Azure CosmosDB service.
