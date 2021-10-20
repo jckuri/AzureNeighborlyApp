@@ -40,7 +40,7 @@ az aks get-credentials --name $K8SC --resource-group $RESOURCE_GROUP
 
 # https://docs.microsoft.com/en-us/azure/azure-functions/functions-kubernetes-keda#deploying-a-function-app-to-kubernetes
 
-func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAGE:latest --polling-interval 3 --cooldown-period 5
+func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAGE:latest --polling-interval 3 --cooldown-period 5 --ignore-errors
 
 
 
