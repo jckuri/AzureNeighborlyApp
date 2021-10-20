@@ -80,7 +80,11 @@ Students should be able to create a Logic App that watches for an HTTP trigger. 
 
 A screenshot from your inbox notification.
 
+![screenshots/send_grid_api_keys.png](screenshots/send_grid_api_keys.png)
 
+![screenshots/http_request_send_grid.png](screenshots//http_request_send_grid.png)
+
+![screenshots/email_received.png](screenshots/email_received.png)
 
 ### The student should be able to create a custom event grid topic and publish the topic.
 
