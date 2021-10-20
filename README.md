@@ -32,7 +32,16 @@ To pass this criteria, show a screenshot, including URL, from the Azure portal w
 
 A screenshot, including URL, from the Azure portal where it is shown what endpoints are live.
 
+![screenshots/endpoints_of_FunctionApp.png](screenshots/endpoints_of_FunctionApp.png)
 
+https://course2neighborlyapi.azurewebsites.net/api/createAdvertisement
+https://course2neighborlyapi.azurewebsites.net/api/deleteAdvertisement
+https://course2neighborlyapi.azurewebsites.net/api/eventHubTrigger
+https://course2neighborlyapi.azurewebsites.net/api/getAdvertisement
+https://course2neighborlyapi.azurewebsites.net/api/getAdvertisements
+https://course2neighborlyapi.azurewebsites.net/api/getPost
+https://course2neighborlyapi.azurewebsites.net/api/getPosts
+https://course2neighborlyapi.azurewebsites.net/api/updateAdvertisement
 
 ### The Azure Functions HTTP Trigger endpoints can connect to MongoDB in Azure CosmosDB service.
 
