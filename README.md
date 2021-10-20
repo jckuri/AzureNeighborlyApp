@@ -30,7 +30,7 @@ $ mongoimport --uri="mongodb://course2cosmosmongodb:8r0sp16yJzd8mCngBQmNUUeibYtg
 2021-10-17T19:10:41.454-0500	done
 ```
 
-mongoimport succesfully imported the advertisements.
+mongoimport successfully imported the advertisements.
 
 ![screenshots/mongoimport_posts.png](screenshots/mongoimport_posts.png)
 
@@ -40,7 +40,7 @@ $ mongoimport --uri="mongodb://course2cosmosmongodb:8r0sp16yJzd8mCngBQmNUUeibYtg
 2021-10-17T19:12:55.795-0500	done
 ```
 
-mongoimport succesfully imported the posts.
+mongoimport successfully imported the posts.
 
 ### The finished server-side application contains working Azure Functions for HTTP Triggers in Python.
 
