@@ -69,11 +69,11 @@ A screenshot, including URL, of at least the data returned from querying the get
 
 ![screenshots/getadvertisements.png](screenshots/getadvertisements.png)
 
-https://course2neighborlyapi.azurewebsites.net/api/getAdvertisements
+This website https://course2neighborlyapi.azurewebsites.net/api/getAdvertisements requested the advertisements shown in JSON format.
 
 ![screenshots/getposts.png](screenshots/getposts.png)
 
-https://course2neighborlyapi.azurewebsites.net/api/getPosts
+This website https://course2neighborlyapi.azurewebsites.net/api/getPosts requested the posts shown in JSON format.
 
 ### The client-side application in Flask should be able to call the live Functions API endpoints that the students published in previous steps.
 
