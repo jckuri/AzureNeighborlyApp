@@ -207,7 +207,11 @@ func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAG
 kubectl config get-contexts
 ```
 
+I used these commands to create a Kubernetes service, associate it with the Docker image in the Azure Container Registry, and finally deploy the Kubernetes service.
+
 ![screenshots/kubernetes_service_deployed.png](screenshots/kubernetes_service_deployed.png)
+
+Here is the evidence that the Kubernetes service was successfully deployed.
 
 ![screenshots/kubernetes_service.png](screenshots/kubernetes_service.png)
 
