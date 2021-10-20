@@ -26,7 +26,7 @@ A screenshot from the terminal giving confirmation that the two pieces of sample
 
 Students are expected to deploy 7 endpoints: createAdvertisement, updateAdvertisement, getAdvertisement, getAdvertisements, and deleteAdvertisement, getPost, getPosts. There should be 7 urls with the format:
 
-https://<STUDENT-APP-NAME>.azurewebsites.net/api/<endpoint>
+https:// < STUDENT-APP-NAME > .azurewebsites.net/api/ < endpoint >
 
 To pass this criteria, show a screenshot, including URL, from the Azure portal where it is shown what endpoints are live.
 
