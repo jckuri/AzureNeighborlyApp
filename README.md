@@ -84,9 +84,15 @@ A screenshot from your inbox notification.
 
 ![screenshots/send_grid_api_keys.png](screenshots/send_grid_api_keys.png)
 
+The API Keys from the Send Grid website.
+
 ![screenshots/http_request_send_grid.png](screenshots//http_request_send_grid.png)
 
+The Logic App which is triggered by an HTTP Request and sends an e-mail.
+
 ![screenshots/email_received.png](screenshots/email_received.png)
+
+The e-mail received.
 
 ### The student should be able to create a custom event grid topic and publish the topic.
 
@@ -96,7 +102,7 @@ A screenshot with the namespace URL.
 
 ![screenshots/event_hub.png](screenshots/event_hub.png)
 
-Namespace URL: https://course2eventhub.servicebus.windows.net **(Disabled to save money.)**
+The Event Hub Namespace URL: https://course2eventhub.servicebus.windows.net **(Disabled to save money.)**
 
 ### The student should be able to add the connection string of the event hub to the Azure Function.
 
