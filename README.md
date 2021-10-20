@@ -110,6 +110,8 @@ The student should be able to use the endpoint connection string from the event 
 
 ![screenshots/event_hub_trigger_edit_trigger.png](screenshots/event_hub_trigger_edit_trigger.png)
 
+In the eventHubTrigger of the Function App `course2neighborlyapi`, I edited the Event Grid Trigger and I created an Event Subscription for the Event Hub Namespace `course2eventhub`.
+
 ![screenshots/event_subscription_to_event_hub.png](screenshots/event_subscription_to_event_hub.png)
 
 ## Deploying Your Application
