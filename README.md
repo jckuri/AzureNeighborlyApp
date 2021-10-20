@@ -24,9 +24,21 @@ A screenshot from the terminal giving confirmation that the two pieces of sample
 
 ![screenshots/mongoimport_advertisements.png](screenshots/mongoimport_advertisements.png)
 
+```
+$ mongoimport --uri="mongodb://course2cosmosmongodb:8r0sp16yJzd8mCngBQmNUUeibYtg2LvF8lNJXv9A3GoJRzKmieX2rCGVTCnDTR4sxQJNTJoZuLdnB0ULjkhROw==@course2cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@course2cosmosmongodb@" --db="course2database" --collection="advertisements" --type=json --file="sample_data/sampleAds.json" --jsonArray --writeConcern="{w:0}"
+2021-10-17T19:10:41.262-0500	connected to: mongodb://[**REDACTED**]@course2cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@course2cosmosmongodb@
+2021-10-17T19:10:41.454-0500	done
+```
+
 mongoimport succesfully imported the advertisements.
 
 ![screenshots/mongoimport_posts.png](screenshots/mongoimport_posts.png)
+
+```
+$ mongoimport --uri="mongodb://course2cosmosmongodb:8r0sp16yJzd8mCngBQmNUUeibYtg2LvF8lNJXv9A3GoJRzKmieX2rCGVTCnDTR4sxQJNTJoZuLdnB0ULjkhROw==@course2cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@course2cosmosmongodb@" --db="course2database" --collection="posts" --type=json --file="sample_data/samplePosts.json" --jsonArray --writeConcern="{w:0}"
+2021-10-17T19:12:55.638-0500	connected to: mongodb://[**REDACTED**]@course2cosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@course2cosmosmongodb@
+2021-10-17T19:12:55.795-0500	done
+```
 
 mongoimport succesfully imported the posts.
 
