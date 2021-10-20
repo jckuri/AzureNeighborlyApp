@@ -164,7 +164,11 @@ az acr login --name $APP_REGISTRY
 docker push $APP_REGISTRY_LINK/$DOCKER_IMAGE
 ```
 
+I used these commands to create a Docker image and push it to the Azure Container Registry.
+
 ![screenshots/docker_image_pushed.png](screenshots/docker_image_pushed.png)
+
+Here is the evidence that the Docker image was successfully pushed to the Azure Container Registry.
 
 ![screenshots/azure_container_registry.png](screenshots/azure_container_registry.png)
 
