@@ -191,6 +191,9 @@ kubectl config get-contexts
 
 ![screenshots/kubernetes_service.png](screenshots/kubernetes_service.png)
 
+![screenshots/kubernetes_get_advertisements.png](screenshots/kubernetes_get_advertisements.png)
+
+![screenshots/kubernetes_get_posts.png](screenshots/kubernetes_get_posts.png)
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
