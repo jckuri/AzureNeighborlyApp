@@ -118,6 +118,8 @@ The live url from Azure App Service (which should be accessible to all users on 
 
 ![screenshots/flask_frontend_live_site.png](screenshots/flask_frontend_live_site.png)
 
+https://c2neighborlyapp.azurewebsites.net/
+
 ### The student should be able to containerize their Flask application with Dockerfile.
 
 The student can run docker build and can import their Dockerfile in the Azure Container Registry.
