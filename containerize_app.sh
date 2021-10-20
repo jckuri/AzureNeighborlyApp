@@ -20,6 +20,10 @@ az acr login --name $APP_REGISTRY
 
 docker push $APP_REGISTRY_LINK/$DOCKER_IMAGE
 
+
+
+
+
 K8SC="project2kubernetescluster"
 az aks create \
  --resource-group $RESOURCE_GROUP \
@@ -41,7 +45,6 @@ az aks get-credentials --name $K8SC --resource-group $RESOURCE_GROUP
 # https://docs.microsoft.com/en-us/azure/azure-functions/functions-kubernetes-keda#deploying-a-function-app-to-kubernetes
 
 func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAGE:latest --polling-interval 3 --cooldown-period 5 --ignore-errors
-
 
 
 kubectl config get-contexts

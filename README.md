@@ -94,7 +94,7 @@ A screenshot with the namespace URL.
 
 ![screenshots/event_hub.png](screenshots/event_hub.png)
 
-Namespace URL: [https://course2eventhub.servicebus.windows.net](https://course2eventhub.servicebus.windows.net)
+Namespace URL: [https://course2eventhub.servicebus.windows.net](https://course2eventhub.servicebus.windows.net) **(Disabled to save money.)**
 
 ### The student should be able to add the connection string of the event hub to the Azure Function.
 
