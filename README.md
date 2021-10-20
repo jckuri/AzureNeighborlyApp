@@ -42,6 +42,8 @@ A screenshot, including URL, from the Azure portal where it is shown what endpoi
 
 ![screenshots/endpoints_of_FunctionApp.png](screenshots/endpoints_of_FunctionApp.png)
 
+The Function App `course2neighborlyapi` offers the following functions:
+
 https://course2neighborlyapi.azurewebsites.net/api/createAdvertisement
 https://course2neighborlyapi.azurewebsites.net/api/deleteAdvertisement
 https://course2neighborlyapi.azurewebsites.net/api/eventHubTrigger
