@@ -18,7 +18,9 @@ A screenshot from the Azure portal showing the database & collections
 
 A screenshot from the terminal giving confirmation that the two pieces of sample data for advertisements (5 documents) and posts (4 documents) were imported correctly, or include this data in the live website.
 
+![screenshots/mongoimport_advertisements.png](screenshots/mongoimport_advertisements.png)
 
+![screenshots/mongoimport_posts.png](screenshots/mongoimport_posts.png)
 
 ### The finished server-side application contains working Azure Functions for HTTP Triggers in Python.
 
