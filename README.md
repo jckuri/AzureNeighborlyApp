@@ -10,6 +10,12 @@ Students should be able to create a MongoDB database, two collections, and impor
 
 To pass this criteria, you can provide a screenshot from the Azure portal showing the database & collections, as well as confirmation that the two pieces of sample data for advertisements (5 documents) and posts (4 documents) were imported correctly.
 
+A screenshot from the Azure portal showing the database & collections
+
+
+
+A screenshot from the terminal giving confirmation that the two pieces of sample data for advertisements (5 documents) and posts (4 documents) were imported correctly, or include this data in the live website.
+
 
 
 ### The finished server-side application contains working Azure Functions for HTTP Triggers in Python.
@@ -20,6 +26,8 @@ https://<STUDENT-APP-NAME>.azurewebsites.net/api/<endpoint>
 
 To pass this criteria, show a screenshot, including URL, from the Azure portal where it is shown what endpoints are live.
 
+A screenshot, including URL, from the Azure portal where it is shown what endpoints are live.
+
 
 
 ### The Azure Functions HTTP Trigger endpoints can connect to MongoDB in Azure CosmosDB service.
@@ -27,6 +35,8 @@ To pass this criteria, show a screenshot, including URL, from the Azure portal w
 To verify that the database is configured, the student should be able to retrieve the connection on each of their API endpoints in the server-API application.
 
 To pass this criteria, show a screenshot, including URL, of at least the data returned from querying the getAdvertisements endpoint; other endpoints will be checked for reasonableness within the related code files.
+
+A screenshot, including URL, of at least the data returned from querying the getAdvertisements endpoint; other endpoints will be checked for reasonableness within the related code files.
 
 
 
@@ -37,6 +47,8 @@ The client-side python Flask application has the routes to obtain services creat
 * Update the front-end code to appropriately query your published API
 * Provide a screenshot here of the front-end appropriately pulling up posts when you visit localhost. Note that if you have provided a screenshot or URL to a live site with the front-end later on in the assignment, that can also be used as proof here.
 
+A screenshot of the front-end appropriately pulling up posts when you visit localhost. Note that if you have provided a screenshot or URL to a live site with the front-end later on in the assignment, that can also be used as proof here.
+
 
 
 ## Logic Apps & Event Hubs
@@ -45,11 +57,15 @@ The client-side python Flask application has the routes to obtain services creat
 
 Students should be able to create a Logic App that watches for an HTTP trigger. When the HTTP request is triggered, the student is sent an email (with Gmail) notification. The student can validate this by a screenshot of their inbox.
 
+A screenshot from your inbox notification.
+
 
 
 ### The student should be able to create a custom event grid topic and publish the topic.
 
 The student should be able create an Event Hubs namespace and an event hub with the command line or through the portal. If successful, the student can obtain the namespace url. Add a screenshot from the portal of this being live.
+
+A screenshot with the namespace URL.
 
 
 
@@ -65,6 +81,8 @@ The student should be able to use the endpoint connection string from the event 
 
 The student should be able to use the live url from Azure App Service in their browser. The URL should be accessible to all users on the World Wide Web, or a screenshot should be provided, including the URL, of the live site.
 
+The live url from Azure App Service (which should be accessible to all users on the World Wide Web), or a screenshot should be provided, including the URL, of the previously live site.
+
 
 
 ### The student should be able to containerize their Flask application with Dockerfile.
@@ -72,6 +90,8 @@ The student should be able to use the live url from Azure App Service in their b
 The student can run docker build and can import their Dockerfile in the Azure Container Registry.
 
 Provide a screenshot of the Dockerfile from Azure Container Registry as evidence.
+
+A screenshot of the Dockerfile from Azure Container Registry as evidence.
 
 
 
@@ -81,6 +101,7 @@ The student should be able to create a cluster with the one node.
 
 Provide a screenshot of confirmation from the terminal, or from within Azure, as evidence.
 
+A screenshot of confirmation from the terminal, or from within Azure, as evidence.
 
 
 
