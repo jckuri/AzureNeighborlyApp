@@ -148,7 +148,9 @@ az acr login --name $APP_REGISTRY
 docker push $APP_REGISTRY_LINK/$DOCKER_IMAGE
 ```
 
+![screenshots/docker_image_pushed.png](screenshots/docker_image_pushed.png)
 
+![screenshots/azure_container_registry.png](screenshots/azure_container_registry.png)
 
 ### The code demonstrates an automated pipeline to spin Kubernetes services in Azure.
 
@@ -185,6 +187,9 @@ func kubernetes deploy --name $K8SC --image-name $APP_REGISTRY_LINK/$DOCKER_IMAG
 kubectl config get-contexts
 ```
 
+![screenshots/kubernetes_service_deployed.png](screenshots/kubernetes_service_deployed.png)
+
+![screenshots/kubernetes_service.png](screenshots/kubernetes_service.png)
 
 
 --------------------------------------------------------------------------------
