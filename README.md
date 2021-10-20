@@ -215,6 +215,8 @@ Here is the evidence that the Kubernetes service was successfully deployed.
 
 ![screenshots/kubernetes_service.png](screenshots/kubernetes_service.png)
 
+And here is the proof that the web services deployed in the Kubernetes cluster actually work:
+
 ![screenshots/kubernetes_get_advertisements.png](screenshots/kubernetes_get_advertisements.png)
 
 ![screenshots/kubernetes_get_posts.png](screenshots/kubernetes_get_posts.png)
