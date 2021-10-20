@@ -68,7 +68,7 @@ The client-side python Flask application has the routes to obtain services creat
 
 A screenshot of the front-end appropriately pulling up posts when you visit localhost. Note that if you have provided a screenshot or URL to a live site with the front-end later on in the assignment, that can also be used as proof here.
 
-
+![screenshots/flask_frontend_local.png](screenshots/flask_frontend_local.png)
 
 ## Logic Apps & Event Hubs
 
